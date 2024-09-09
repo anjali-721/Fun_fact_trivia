@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+     background: url('./bg.jpg') no-repeat center center fixed; 
+    background-size: cover ;
+    background-position: center;
+   
+}
+
+.subheader {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    font-weight: bold; 
+    color: #cc2020;
+    text-align: center;
+    margin: 20px 0; 
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.form-container {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 0px auto 0; 
+    padding: 20px;
+    background: radial-gradient(circle, transparent, white); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        padding: 10px;
+        margin-top: 90px; 
+    }
+}
+hr{
+    color: rgb(78, 10, 10);
+}
+
